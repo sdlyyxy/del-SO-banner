@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "del-SO-banner",
+    "version": "1.0",
+  
+    "description": "Auto remove cookie banner of Stack Exchange series websites.",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://askubuntu.com/*",
+            "*://superuser.com/*",
+            "*://stackoverflow.com/*",
+            "*://*.stackexchange.com/*",
+            "*://serverfault.com/*"],
+        "js": ["borderify.js"]
+      }
+    ]
+  
+  }
