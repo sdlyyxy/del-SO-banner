@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB6FC6FD27DDC51300A17137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FC6FC27DDC51300A17137 /* AppDelegate.swift */; };
+		FB6FC70127DDC51300A17137 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC6FF27DDC51300A17137 /* Main.html */; };
+		FB6FC70327DDC51300A17137 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC70227DDC51300A17137 /* Icon.png */; };
+		FB6FC70527DDC51300A17137 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC70427DDC51300A17137 /* Style.css */; };
+		FB6FC70727DDC51300A17137 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC70627DDC51300A17137 /* Script.js */; };
+		FB6FC70927DDC51300A17137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FC70827DDC51300A17137 /* ViewController.swift */; };
+		FB6FC70C27DDC51300A17137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC70A27DDC51300A17137 /* Main.storyboard */; };
+		FB6FC70E27DDC51300A17137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC70D27DDC51300A17137 /* Assets.xcassets */; };
+		FB6FC71627DDC51400A17137 /* del-SO-banner Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FB6FC71527DDC51400A17137 /* del-SO-banner Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB6FC71B27DDC51400A17137 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FC71A27DDC51400A17137 /* SafariWebExtensionHandler.swift */; };
+		FB6FC71E27DDC51400A17137 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC71D27DDC51400A17137 /* _locales */; };
+		FB6FC72027DDC51400A17137 /* images in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC71F27DDC51400A17137 /* images */; };
+		FB6FC72227DDC51400A17137 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC72127DDC51400A17137 /* manifest.json */; };
+		FB6FC72427DDC51400A17137 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC72327DDC51400A17137 /* background.js */; };
+		FB6FC72627DDC51400A17137 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC72527DDC51400A17137 /* content.js */; };
+		FB6FC72827DDC51400A17137 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC72727DDC51400A17137 /* popup.html */; };
+		FB6FC72A27DDC51400A17137 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC72927DDC51400A17137 /* popup.css */; };
+		FB6FC72C27DDC51400A17137 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FB6FC72B27DDC51400A17137 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB6FC71727DDC51400A17137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB6FC6F127DDC51300A17137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB6FC71427DDC51400A17137;
+			remoteInfo = "del-SO-banner Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB6FC73427DDC51400A17137 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB6FC71627DDC51400A17137 /* del-SO-banner Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB6FC6F927DDC51300A17137 /* del-SO-banner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "del-SO-banner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6FC6FC27DDC51300A17137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB6FC70027DDC51300A17137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		FB6FC70227DDC51300A17137 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FB6FC70427DDC51300A17137 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		FB6FC70627DDC51300A17137 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		FB6FC70827DDC51300A17137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB6FC70B27DDC51300A17137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB6FC70D27DDC51300A17137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB6FC70F27DDC51300A17137 /* del_SO_banner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = del_SO_banner.entitlements; sourceTree = "<group>"; };
+		FB6FC71027DDC51300A17137 /* del-SO-banner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "del-SO-banner.entitlements"; sourceTree = "<group>"; };
+		FB6FC71527DDC51400A17137 /* del-SO-banner Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "del-SO-banner Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6FC71A27DDC51400A17137 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		FB6FC71D27DDC51400A17137 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		FB6FC71F27DDC51400A17137 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		FB6FC72127DDC51400A17137 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		FB6FC72327DDC51400A17137 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		FB6FC72527DDC51400A17137 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		FB6FC72727DDC51400A17137 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		FB6FC72927DDC51400A17137 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		FB6FC72B27DDC51400A17137 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		FB6FC72D27DDC51400A17137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6FC72E27DDC51400A17137 /* del_SO_banner_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = del_SO_banner_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB6FC6F627DDC51300A17137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6FC71227DDC51400A17137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB6FC6F027DDC51300A17137 = {
+			isa = PBXGroup;
+			children = (
+				FB6FC6FB27DDC51300A17137 /* del-SO-banner */,
+				FB6FC71927DDC51400A17137 /* del-SO-banner Extension */,
+				FB6FC6FA27DDC51300A17137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB6FC6FA27DDC51300A17137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FC6F927DDC51300A17137 /* del-SO-banner.app */,
+				FB6FC71527DDC51400A17137 /* del-SO-banner Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB6FC6FB27DDC51300A17137 /* del-SO-banner */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FC6FC27DDC51300A17137 /* AppDelegate.swift */,
+				FB6FC70827DDC51300A17137 /* ViewController.swift */,
+				FB6FC70A27DDC51300A17137 /* Main.storyboard */,
+				FB6FC70D27DDC51300A17137 /* Assets.xcassets */,
+				FB6FC70F27DDC51300A17137 /* del_SO_banner.entitlements */,
+				FB6FC71027DDC51300A17137 /* del-SO-banner.entitlements */,
+				FB6FC6FE27DDC51300A17137 /* Resources */,
+			);
+			path = "del-SO-banner";
+			sourceTree = "<group>";
+		};
+		FB6FC6FE27DDC51300A17137 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FC6FF27DDC51300A17137 /* Main.html */,
+				FB6FC70227DDC51300A17137 /* Icon.png */,
+				FB6FC70427DDC51300A17137 /* Style.css */,
+				FB6FC70627DDC51300A17137 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB6FC71927DDC51400A17137 /* del-SO-banner Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FC71A27DDC51400A17137 /* SafariWebExtensionHandler.swift */,
+				FB6FC72D27DDC51400A17137 /* Info.plist */,
+				FB6FC72E27DDC51400A17137 /* del_SO_banner_Extension.entitlements */,
+				FB6FC71C27DDC51400A17137 /* Resources */,
+			);
+			path = "del-SO-banner Extension";
+			sourceTree = "<group>";
+		};
+		FB6FC71C27DDC51400A17137 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FC71D27DDC51400A17137 /* _locales */,
+				FB6FC71F27DDC51400A17137 /* images */,
+				FB6FC72127DDC51400A17137 /* manifest.json */,
+				FB6FC72327DDC51400A17137 /* background.js */,
+				FB6FC72527DDC51400A17137 /* content.js */,
+				FB6FC72727DDC51400A17137 /* popup.html */,
+				FB6FC72927DDC51400A17137 /* popup.css */,
+				FB6FC72B27DDC51400A17137 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB6FC6F827DDC51300A17137 /* del-SO-banner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6FC73527DDC51400A17137 /* Build configuration list for PBXNativeTarget "del-SO-banner" */;
+			buildPhases = (
+				FB6FC6F527DDC51300A17137 /* Sources */,
+				FB6FC6F627DDC51300A17137 /* Frameworks */,
+				FB6FC6F727DDC51300A17137 /* Resources */,
+				FB6FC73427DDC51400A17137 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB6FC71827DDC51400A17137 /* PBXTargetDependency */,
+			);
+			name = "del-SO-banner";
+			productName = "del-SO-banner";
+			productReference = FB6FC6F927DDC51300A17137 /* del-SO-banner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB6FC71427DDC51400A17137 /* del-SO-banner Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6FC73127DDC51400A17137 /* Build configuration list for PBXNativeTarget "del-SO-banner Extension" */;
+			buildPhases = (
+				FB6FC71127DDC51400A17137 /* Sources */,
+				FB6FC71227DDC51400A17137 /* Frameworks */,
+				FB6FC71327DDC51400A17137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "del-SO-banner Extension";
+			productName = "del-SO-banner Extension";
+			productReference = FB6FC71527DDC51400A17137 /* del-SO-banner Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB6FC6F127DDC51300A17137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FB6FC6F827DDC51300A17137 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FB6FC71427DDC51400A17137 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FB6FC6F427DDC51300A17137 /* Build configuration list for PBXProject "del-SO-banner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB6FC6F027DDC51300A17137;
+			productRefGroup = FB6FC6FA27DDC51300A17137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6FC6F827DDC51300A17137 /* del-SO-banner */,
+				FB6FC71427DDC51400A17137 /* del-SO-banner Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB6FC6F727DDC51300A17137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6FC70327DDC51300A17137 /* Icon.png in Resources */,
+				FB6FC70C27DDC51300A17137 /* Main.storyboard in Resources */,
+				FB6FC70727DDC51300A17137 /* Script.js in Resources */,
+				FB6FC70127DDC51300A17137 /* Main.html in Resources */,
+				FB6FC70E27DDC51300A17137 /* Assets.xcassets in Resources */,
+				FB6FC70527DDC51300A17137 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6FC71327DDC51400A17137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6FC72427DDC51400A17137 /* background.js in Resources */,
+				FB6FC72A27DDC51400A17137 /* popup.css in Resources */,
+				FB6FC72827DDC51400A17137 /* popup.html in Resources */,
+				FB6FC72027DDC51400A17137 /* images in Resources */,
+				FB6FC72227DDC51400A17137 /* manifest.json in Resources */,
+				FB6FC71E27DDC51400A17137 /* _locales in Resources */,
+				FB6FC72627DDC51400A17137 /* content.js in Resources */,
+				FB6FC72C27DDC51400A17137 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB6FC6F527DDC51300A17137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6FC70927DDC51300A17137 /* ViewController.swift in Sources */,
+				FB6FC6FD27DDC51300A17137 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6FC71127DDC51400A17137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6FC71B27DDC51400A17137 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB6FC71827DDC51400A17137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB6FC71427DDC51400A17137 /* del-SO-banner Extension */;
+			targetProxy = FB6FC71727DDC51400A17137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB6FC6FF27DDC51300A17137 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6FC70027DDC51300A17137 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		FB6FC70A27DDC51300A17137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6FC70B27DDC51300A17137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB6FC72F27DDC51400A17137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB6FC73027DDC51400A17137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FB6FC73227DDC51400A17137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "del-SO-banner Extension/del_SO_banner_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "del-SO-banner Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "del-SO-banner Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdlyyxy.del-SO-banner.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB6FC73327DDC51400A17137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "del-SO-banner Extension/del_SO_banner_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "del-SO-banner Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "del-SO-banner Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdlyyxy.del-SO-banner.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FB6FC73627DDC51400A17137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "del-SO-banner/del-SO-banner.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "del-SO-banner";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdlyyxy.del-SO-banner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB6FC73727DDC51400A17137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "del-SO-banner/del-SO-banner.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "del-SO-banner";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdlyyxy.del-SO-banner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB6FC6F427DDC51300A17137 /* Build configuration list for PBXProject "del-SO-banner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6FC72F27DDC51400A17137 /* Debug */,
+				FB6FC73027DDC51400A17137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6FC73127DDC51400A17137 /* Build configuration list for PBXNativeTarget "del-SO-banner Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6FC73227DDC51400A17137 /* Debug */,
+				FB6FC73327DDC51400A17137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6FC73527DDC51400A17137 /* Build configuration list for PBXNativeTarget "del-SO-banner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6FC73627DDC51400A17137 /* Debug */,
+				FB6FC73727DDC51400A17137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB6FC6F127DDC51300A17137 /* Project object */;
+}
