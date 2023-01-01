@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBDD149229615F680017EB89 /* del_SO_banner_highsierra.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = FBDD149129615F680017EB89 /* del_SO_banner_highsierra.entitlements */; };
+		FBDD149429615F680017EB89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD149329615F680017EB89 /* AppDelegate.swift */; };
+		FBDD149729615F680017EB89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDD149529615F680017EB89 /* Main.storyboard */; };
+		FBDD149929615F680017EB89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD149829615F680017EB89 /* ViewController.swift */; };
+		FBDD149B29615F690017EB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDD149A29615F690017EB89 /* Assets.xcassets */; };
+		FBDD14A229615F690017EB89 /* del-SO-banner-highsierra Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FBDD14A129615F690017EB89 /* del-SO-banner-highsierra Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FBDD14A729615F690017EB89 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDD14A629615F690017EB89 /* Cocoa.framework */; };
+		FBDD14AA29615F690017EB89 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD14A929615F690017EB89 /* SafariExtensionHandler.swift */; };
+		FBDD14AC29615F690017EB89 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD14AB29615F690017EB89 /* SafariExtensionViewController.swift */; };
+		FBDD14AF29615F690017EB89 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBDD14AD29615F690017EB89 /* SafariExtensionViewController.xib */; };
+		FBDD14B229615F690017EB89 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = FBDD14B129615F690017EB89 /* script.js */; };
+		FBDD14B429615F690017EB89 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FBDD14B329615F690017EB89 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBDD14A329615F690017EB89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBDD148629615F680017EB89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBDD14A029615F690017EB89;
+			remoteInfo = "del-SO-banner-highsierra Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBDD14BB29615F690017EB89 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FBDD14A229615F690017EB89 /* del-SO-banner-highsierra Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FBDD148E29615F680017EB89 /* del-SO-banner-highsierra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "del-SO-banner-highsierra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDD149129615F680017EB89 /* del_SO_banner_highsierra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = del_SO_banner_highsierra.entitlements; sourceTree = "<group>"; };
+		FBDD149329615F680017EB89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBDD149629615F680017EB89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBDD149829615F680017EB89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBDD149A29615F690017EB89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBDD149C29615F690017EB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDD14A129615F690017EB89 /* del-SO-banner-highsierra Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "del-SO-banner-highsierra Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDD14A629615F690017EB89 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FBDD14A929615F690017EB89 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		FBDD14AB29615F690017EB89 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		FBDD14AE29615F690017EB89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		FBDD14B029615F690017EB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDD14B129615F690017EB89 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		FBDD14B329615F690017EB89 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		FBDD14B529615F690017EB89 /* del_SO_banner_highsierra_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = del_SO_banner_highsierra_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBDD148B29615F680017EB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDD149E29615F690017EB89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDD14A729615F690017EB89 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBDD148529615F680017EB89 = {
+			isa = PBXGroup;
+			children = (
+				FBDD149029615F680017EB89 /* del-SO-banner-highsierra */,
+				FBDD14A829615F690017EB89 /* del-SO-banner-highsierra Extension */,
+				FBDD14A529615F690017EB89 /* Frameworks */,
+				FBDD148F29615F680017EB89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDD148F29615F680017EB89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBDD148E29615F680017EB89 /* del-SO-banner-highsierra.app */,
+				FBDD14A129615F690017EB89 /* del-SO-banner-highsierra Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBDD149029615F680017EB89 /* del-SO-banner-highsierra */ = {
+			isa = PBXGroup;
+			children = (
+				FBDD149129615F680017EB89 /* del_SO_banner_highsierra.entitlements */,
+				FBDD149329615F680017EB89 /* AppDelegate.swift */,
+				FBDD149529615F680017EB89 /* Main.storyboard */,
+				FBDD149829615F680017EB89 /* ViewController.swift */,
+				FBDD149A29615F690017EB89 /* Assets.xcassets */,
+				FBDD149C29615F690017EB89 /* Info.plist */,
+			);
+			path = "del-SO-banner-highsierra";
+			sourceTree = "<group>";
+		};
+		FBDD14A529615F690017EB89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBDD14A629615F690017EB89 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBDD14A829615F690017EB89 /* del-SO-banner-highsierra Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FBDD14A929615F690017EB89 /* SafariExtensionHandler.swift */,
+				FBDD14AB29615F690017EB89 /* SafariExtensionViewController.swift */,
+				FBDD14AD29615F690017EB89 /* SafariExtensionViewController.xib */,
+				FBDD14B029615F690017EB89 /* Info.plist */,
+				FBDD14B129615F690017EB89 /* script.js */,
+				FBDD14B329615F690017EB89 /* ToolbarItemIcon.pdf */,
+				FBDD14B529615F690017EB89 /* del_SO_banner_highsierra_Extension.entitlements */,
+			);
+			path = "del-SO-banner-highsierra Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBDD148D29615F680017EB89 /* del-SO-banner-highsierra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDD14BC29615F690017EB89 /* Build configuration list for PBXNativeTarget "del-SO-banner-highsierra" */;
+			buildPhases = (
+				FBDD148A29615F680017EB89 /* Sources */,
+				FBDD148B29615F680017EB89 /* Frameworks */,
+				FBDD148C29615F680017EB89 /* Resources */,
+				FBDD14BB29615F690017EB89 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBDD14A429615F690017EB89 /* PBXTargetDependency */,
+			);
+			name = "del-SO-banner-highsierra";
+			productName = "del-SO-banner-highsierra";
+			productReference = FBDD148E29615F680017EB89 /* del-SO-banner-highsierra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBDD14A029615F690017EB89 /* del-SO-banner-highsierra Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDD14B829615F690017EB89 /* Build configuration list for PBXNativeTarget "del-SO-banner-highsierra Extension" */;
+			buildPhases = (
+				FBDD149D29615F690017EB89 /* Sources */,
+				FBDD149E29615F690017EB89 /* Frameworks */,
+				FBDD149F29615F690017EB89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "del-SO-banner-highsierra Extension";
+			productName = "del-SO-banner-highsierra Extension";
+			productReference = FBDD14A129615F690017EB89 /* del-SO-banner-highsierra Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBDD148629615F680017EB89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sdlyyxy;
+				TargetAttributes = {
+					FBDD148D29615F680017EB89 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FBDD14A029615F690017EB89 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FBDD148929615F680017EB89 /* Build configuration list for PBXProject "del-SO-banner-highsierra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBDD148529615F680017EB89;
+			productRefGroup = FBDD148F29615F680017EB89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBDD148D29615F680017EB89 /* del-SO-banner-highsierra */,
+				FBDD14A029615F690017EB89 /* del-SO-banner-highsierra Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBDD148C29615F680017EB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDD149229615F680017EB89 /* del_SO_banner_highsierra.entitlements in Resources */,
+				FBDD149B29615F690017EB89 /* Assets.xcassets in Resources */,
+				FBDD149729615F680017EB89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDD149F29615F690017EB89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDD14B429615F690017EB89 /* ToolbarItemIcon.pdf in Resources */,
+				FBDD14AF29615F690017EB89 /* SafariExtensionViewController.xib in Resources */,
+				FBDD14B229615F690017EB89 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBDD148A29615F680017EB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDD149929615F680017EB89 /* ViewController.swift in Sources */,
+				FBDD149429615F680017EB89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDD149D29615F690017EB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDD14AC29615F690017EB89 /* SafariExtensionViewController.swift in Sources */,
+				FBDD14AA29615F690017EB89 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBDD14A429615F690017EB89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBDD14A029615F690017EB89 /* del-SO-banner-highsierra Extension */;
+			targetProxy = FBDD14A329615F690017EB89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBDD149529615F680017EB89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDD149629615F680017EB89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBDD14AD29615F690017EB89 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDD14AE29615F690017EB89 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBDD14B629615F690017EB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBDD14B729615F690017EB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FBDD14B929615F690017EB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "del-SO-banner-highsierra Extension/del_SO_banner_highsierra_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "del-SO-banner-highsierra Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sdlyyxy.del-SO-banner-highsierra-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		FBDD14BA29615F690017EB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "del-SO-banner-highsierra Extension/del_SO_banner_highsierra_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "del-SO-banner-highsierra Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sdlyyxy.del-SO-banner-highsierra-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		FBDD14BD29615F690017EB89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "del-SO-banner-highsierra/del_SO_banner_highsierra.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "del-SO-banner-highsierra/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sdlyyxy.del-SO-banner-highsierra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		FBDD14BE29615F690017EB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "del-SO-banner-highsierra/del_SO_banner_highsierra.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "del-SO-banner-highsierra/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sdlyyxy.del-SO-banner-highsierra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBDD148929615F680017EB89 /* Build configuration list for PBXProject "del-SO-banner-highsierra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDD14B629615F690017EB89 /* Debug */,
+				FBDD14B729615F690017EB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDD14B829615F690017EB89 /* Build configuration list for PBXNativeTarget "del-SO-banner-highsierra Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDD14B929615F690017EB89 /* Debug */,
+				FBDD14BA29615F690017EB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDD14BC29615F690017EB89 /* Build configuration list for PBXNativeTarget "del-SO-banner-highsierra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDD14BD29615F690017EB89 /* Debug */,
+				FBDD14BE29615F690017EB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBDD148629615F680017EB89 /* Project object */;
+}
